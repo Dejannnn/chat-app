@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body class="chat">
+
+<div class="chat__sidebar">
+    <h3>WELECOME to frist chat app </h3>
+    <div id="users">
+
+    </div>
+</div>
+
+<div class="chat__main">
+
+       <ol id="messages" class="chat__messages"></ol>
+
+    <div class="chat__footer">
+        <form id="message-from">
+
+            <input name="message" type="text" placeholder="Messages " autofocus  autocomplete="of"/>
+            <button>Send</button>
+        </form>
+        <button id="idLocation">Location</button>
+    </div>
+
+</div>
+
+
+<script src="lib/moment.js"></script>
+<script src="lib/jquery-3.3.1.min.js"></script>
+<script src="socket.io/socket.io.js" ></script>
+<script src="js/Chat.js"></script>
+<script src="lib/deparam.js"></script>
+</body>
+</html>
